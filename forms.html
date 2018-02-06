@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FORMS n FILLS</title>
+	<link rel="stylesheet" type="text/css" href="forms.css">
+</head>
+<body>
+	<div align="left" id="soft" class="Content_1">
+			<form action="forms.php" method="POST">
+			First Name: <input type="text" id="soft" name="First name" value=""><br><br>
+			Last Name: <input type="text" id="soft" name="Last name" value=""><br><br>
+			Username: <input type="text" id="soft" name="Username" value=""><br><br>
+			Password: <input type="text" id="soft" name="password" value=""><br><br>
+			<input type="submit" name="submit" onclick="submit()">
+
+		</form>
+		<div id="why"></div>
+	</div>
+	<script>
+	function submit(){
+		alert(Thank You!)
+			var b=document.getElementById("soft")
+					for(c=0;c<=b.value.length;c++){
+						return b.value
+						};
+				d=document.getElementById("why");
+					d.innerHTML="b";
+			
+	}
+</script>
+</body>
+</html>
